@@ -16,6 +16,9 @@ namespace WebGK.Controllers
             ViewBag.Product = Product;
             var Category = db.Categories.ToList();
             ViewBag.Category = Category;
+
+
+
             return View();
         }
     }
